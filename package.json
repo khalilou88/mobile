@@ -2,13 +2,11 @@
   "name": "@mobile/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {
-  },
+  "scripts": {},
   "private": true,
-  "dependencies": {
-  },
   "devDependencies": {
-    "nx": "16.5.0",
-    "@nx/workspace": "16.5.0"
+    "@jnxplus/nx-gradle": "^0.5.0",
+    "@nx/workspace": "16.5.0",
+    "nx": "16.5.0"
   }
 }
