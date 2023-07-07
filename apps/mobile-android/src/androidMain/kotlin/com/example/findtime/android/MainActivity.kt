@@ -1,4 +1,4 @@
-package com.example.mobile
+package com.example.findtime.android
 
 import MainView
 import android.os.Bundle

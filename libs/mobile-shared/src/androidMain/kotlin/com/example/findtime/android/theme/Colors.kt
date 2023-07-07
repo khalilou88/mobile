@@ -1,3 +1,6 @@
+package com.example.findtime.android.theme
+
+
 import androidx.compose.ui.graphics.Color
 
 val primaryColor = Color(0xFF1e88e5)
@@ -8,3 +11,4 @@ val secondaryLightColor = Color(0xFF64d8cb)
 val secondaryDarkColor = Color(0xFF00766c)
 val primaryTextColor = Color(0xFF000000)
 val secondaryTextColor = Color(0xFF000000)
+val lightGrey = Color(0xFFA2B4B5)

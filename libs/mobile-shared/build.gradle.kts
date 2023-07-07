@@ -37,6 +37,10 @@ kotlin {
                 implementation(compose.material)
                 @OptIn(org.jetbrains.compose.ExperimentalComposeLibrary::class)
                 implementation(compose.components.resources)
+
+                implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.0")
+                implementation("io.github.aakira:napier:2.6.1")
+
             }
         }
         val androidMain by getting {
@@ -44,6 +48,8 @@ kotlin {
                 api("androidx.activity:activity-compose:1.6.1")
                 api("androidx.appcompat:appcompat:1.6.1")
                 api("androidx.core:core-ktx:1.9.0")
+
+                implementation("androidx.compose.material:material-icons-extended:1.4.3")
             }
         }
         val iosX64Main by getting
