@@ -1,0 +1,24 @@
+{
+  "name": "mobile-shared",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "libs/mobile-shared/src",
+  "targets": {
+    "build": {
+      "executor": "@jnxplus/nx-gradle:build"
+    },
+    "lint": {
+      "executor": "@jnxplus/nx-gradle:lint",
+      "options": {
+        "linter": "ktlint"
+      }
+    },
+    "test": {
+      "executor": "@jnxplus/nx-gradle:test"
+    },
+    "ktformat": {
+      "executor": "@jnxplus/nx-gradle:ktformat"
+    }
+  },
+  "tags": []
+}

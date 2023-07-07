@@ -1,0 +1,25 @@
+{
+  "name": "mobile-desktop",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/mobile-desktop/src",
+  "targets": {
+    "build": {
+      "executor": "@jnxplus/nx-gradle:build"
+    },
+    "serve": {},
+    "lint": {
+      "executor": "@jnxplus/nx-gradle:lint",
+      "options": {
+        "linter": "ktlint"
+      }
+    },
+    "test": {
+      "executor": "@jnxplus/nx-gradle:test"
+    },
+    "ktformat": {
+      "executor": "@jnxplus/nx-gradle:ktformat"
+    }
+  },
+  "tags": []
+}
